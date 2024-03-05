@@ -16,13 +16,13 @@ export default function PurchaseSteps() {
             <p className="text-sm/[16px] md:flex md:flex-col"><span>Buying anything, devices and hardwares has never been this easy.</span><span>Just select your desired product, make a payment and enjoy!</span></p>
         </div>
         <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center w-full ">
-            <div className="md:order-2 w-full md:w-[60%] md:mt-[-2rem] lg:mt-[-5rem]">
+            <div className="md:order-2 w-full md:w-[60%] md:mt-[-2rem] lg:-mt-40 flex flex-row justify-center">
                 <Image 
                     src={'/home/purchase/completed-order.png'}
                     alt="Completed Order"
                     width={1920}
                     height={1080}
-                    className="w-full md:w-full lg:w-[80%]"
+                    className="w-full md:w-full lg:w-[90%]"
                 />
             </div>
             <div className="flex flex-col items-center w-full gap-2 md:gap-6 md:w-[50%] lg:w-[40%] md:items-start ">

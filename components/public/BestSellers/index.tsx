@@ -12,9 +12,9 @@ export default function BestSellers(){
 
     ]
     return(
-        <div className="flex flex-col my-12 items-center gap-8 ">
+        <div className="flex flex-col my-12 items-center gap-8">
             <h2 className="text-white text-2xl font-bold">Weekly Best Sellers</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center gap-12 box-content px-2">
+            <div className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-12 box-content px-4">
                 {products.map(({title,price,img,desc,benefits},index) => (
                     <ProductCard key={index} title={title} price={price} desc={desc} image={img} benefits={benefits}/>
                 ))}

@@ -26,11 +26,11 @@ export default function LinkTree({title, type}:LinkTreeProps){
 
     return(
         <div className="flex flex-col items-center md:items-start text-white gap-4">
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-xl md:text-sm lg:text-2xl font-bold">
                 {title.toUpperCase()}
             </h2>
 
-            <div className="flex flex-col items-center md:items-start gap-6 md:gap-4"> 
+            <div className="flex flex-col items-center md:items-start gap-6 md:gap-4 text-sm lg:text-xl"> 
                 {treetype.map(({href, label},index) => (
                     <Link key={index} href={href} className="">
                         {label.toUpperCase()}
