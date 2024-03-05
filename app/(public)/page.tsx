@@ -4,7 +4,7 @@ import PurchaseSteps from '@/components/public/PurchaseSteps'
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center w-full overflow-hidden'>
+    <div className='flex flex-col items-center w-full overflow-hidden min-h-screen'>
         <CategoriesSection />
         <BestSellers />
         <PurchaseSteps />

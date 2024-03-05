@@ -21,7 +21,8 @@ export default function ProductCard({title, desc, price, image, benefits}:Produc
 
 
     return(
-        <div className="flex flex-row relative bg-black/90 bg-gradient-to-br from-[#4ff9ff]/[16%] to-[#5324B8]/[16%] h-52 xs:h-48 w-full md:w-[350px] p-2 rounded-xl border-[1px] border-gray-500/30 ">
+        <div className="flex flex-row relative bg-black/90 bg-gradient-to-br from-[#4ff9ff]/[16%] to-[#5324B8]/[16%] h-52 xs:h-48 w-full md:w-[350px] p-2 rounded-xl border-[1px] border-gray-500/30 
+                        transition-all duration-300 hover:shadow-cyan-700/50 hover:shadow-lg hover:scale-105 hover:cursor-pointer">
             <div className="w-90 flex flex-col h-full justify-between ">
                 <div className="flex flex-col">                
                     <span className="text-white text-md">{title}</span>
@@ -34,7 +35,8 @@ export default function ProductCard({title, desc, price, image, benefits}:Produc
                 </div>
 
                 <div className="flex flex-row gap-2 items-end">
-                    <div className="border-[0.01em] border-gray-300/[5%] rounded-full p-[6px] bg-gradient-to-br from-[#06060B] to-transparent">
+                    <div className="border-[0.01em] border-gray-300/[5%] rounded-full p-[6px] bg-gradient-to-br 
+                                  from-[#06060B] to-transparent hover:scale-110 transition-all duration-300 hover:shadow-cyan-500/50 hover:shadow-md">
                         <Image 
                             src={'/home/products/add-to-card.svg'}
                             alt="Add to Cart"
