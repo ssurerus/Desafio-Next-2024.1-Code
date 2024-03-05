@@ -109,7 +109,7 @@ export default function Header(){
                     height={50}
                     className='h-10 w-10 hover:cursor-pointer hover:scale-105'
                     />
-                    <div className='absolute -bottom-12 mx-auto flex-col items-center hidden group-hover:flex transition-all duration-300'>
+                    <div className='absolute -bottom-11 mx-auto flex-col items-center hidden group-hover:flex hover:flex transition-all duration-300'>
                         <div className="w-0 h-0 border-x-[5px] border-b-[5px] border-b-gray-300/15 border-x-transparent"></div>
                         <div className='bg-gradient-to-br from-[#FFFDFD]/15 to-[#828282]/[12%] rounded-md p-2'>
                             <Link href='/admin/management' className='text-white text-md hover:text-[18px] py-2 px-6 hover:bg-gradient-to-r from-transparent via-blue-700/15 to-transparent transition-all duration-200'>Members</Link>
