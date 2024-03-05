@@ -21,7 +21,7 @@ export default function Header(){
     const toggleNav = () => setIsNavOpen(!isNavOpen);
 
     return(
-        <header className="bg-black backdrop-blur-sm bg-opacity-[40%] w-full flex flex-row items-center justify-between py-3 md:px-[5%] gap-6 px-4 box-border sticky top-0 left-0 z-[99]">
+        <header className="bg-blue-900 backdrop-blur-sm bg-opacity-[20%] w-full flex flex-row items-center justify-between py-3 md:px-[5%] gap-6 px-4 box-border sticky top-0 left-0 z-[99]">
             <nav className='flex flex-row items-center flex-wrap w-[33%] md:hidden md:pl-4'>
                 <Bars color='white' className='bg-[#494949] p-1 w-10 h-10 rounded-md mx-auto' onClick={toggleNav} />
                 { isNavOpen ?
